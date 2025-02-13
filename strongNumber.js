@@ -6,7 +6,7 @@ function factorial(n){
 }
 
 function isStrongNumber(number){
-    let temp=number,sum=0,noOfDigit=number.toString().length;
+    let temp=number,sum=0;
 
     while(temp>0){
         let digit = temp%10 
@@ -23,7 +23,5 @@ function isStrongNumber(number){
     }
 }
 
-
-
-let number = 145;
+let number = 40585;
 isStrongNumber(number)
